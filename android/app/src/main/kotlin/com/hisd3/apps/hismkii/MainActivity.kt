@@ -1,4 +1,4 @@
-package com.hisd3.apps.hismkii_mobile
+package com.hisd3.apps.hismkii
 
 import android.os.Bundle
 

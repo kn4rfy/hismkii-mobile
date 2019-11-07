@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hisd3.apps.hismkii_mobile">
+    package="com.hisd3.apps.hismkii">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -9,7 +9,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:icon="@mipmap/ic_launcher"
-        android:label="hismkii_mobile"
+        android:label="HISMKII"
         android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
