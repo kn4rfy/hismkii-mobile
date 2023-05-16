@@ -61,7 +61,7 @@ class NavigationControls extends StatelessWidget {
                       if (await controller.canGoBack()) {
                         controller.goBack();
                       } else {
-                        Scaffold.of(context).showSnackBar(
+                        ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text("No back history item")),
                         );
                         return;
@@ -76,7 +76,7 @@ class NavigationControls extends StatelessWidget {
                       if (await controller.canGoForward()) {
                         controller.goForward();
                       } else {
-                        Scaffold.of(context).showSnackBar(
+                        ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(
                               content: Text("No forward history item")),
                         );
